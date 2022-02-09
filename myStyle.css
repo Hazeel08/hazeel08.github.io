@@ -1,0 +1,132 @@
+﻿/*Para colocar comentarios dentro de style*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+}
+
+footer {
+    color: white;
+}
+
+section {
+    background-color: lightblue;
+}
+
+h1, h2, h3, h4, li {
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+
+table, th, td {
+    border: 1px solid deeppink;
+    font-family: 'Times New Roman';
+}
+
+.destacado {
+    color: deeppink;
+}
+
+#descripcion {
+    font-weight: 50;
+    font-size: 150%;
+}
+
+aside {
+    width: 50%;
+    float: left;
+    font-style: normal;
+    background-color: lightslategray;
+    height: 278px;
+}
+
+main {
+    width: 50%;
+    float: right;
+    font-style: normal;
+    background-color: gray;
+    border-block-color: gray;
+}
+
+.contentenido1 {
+    width: 49%;
+    padding-left: 10px;
+    margin-left: 0px;
+    float: left;
+    background-color: deeppink;
+    text-align: center;
+}
+
+.contentenido2 {
+    width: 49.5%;
+    padding-left: 10px;
+    margin-left: 0px;
+    float: right;
+    background-color: purple;
+    text-align: center;
+}
+
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ff3399;
+    --secundario: #0097A7;
+    --gris: #757575;
+}
+
+.contenido {
+    width: 83rem;
+    margin: 0 auto;
+}
+
+.navPrincipal {
+    display: flex;
+    /*Define la dirección del contenido*/
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navPrincipal a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.navPrincipal a:hover {
+    background-color: var(--primario);
+    color: var(--blanco);
+}
+
+/*Selector universal*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Caja principal*/
+#fondo {
+    width: 1350px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+/*Box zising*/
+div {
+    width: 1350px;
+    margin: 0px;
+    padding: 0px;
+    border: none/1px solid #000000/;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
